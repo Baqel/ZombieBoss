@@ -42,7 +42,7 @@ public class ZombieBoss extends JavaPlugin implements Listener {
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] a) {
         if (cmd.getName().equalsIgnoreCase("boss")) {
             Player player = (Player) sender;
-            if (player.hasPermission("clockyy.boss")) {
+            if (player.hasPermission("baqel.boss")) {
                 spawnZombie(player);
                 player.sendMessage(ChatColor.GREEN + "You have successfully spawned the boss!");
             }
