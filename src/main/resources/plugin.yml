@@ -1,0 +1,14 @@
+name: ZombieBoss
+version: ${project.version}
+main: xyz.baqel.zombieboss.zombieboss.ZombieBoss
+authors: [Baqel]
+description: A plugin that spawns a zombie with effects!
+commands:
+  boss:
+    description: Spawns a zombie boss!
+    aliases: [zb, zombie]
+    permission: baqel.boss
+permissions:
+  clockyy.boss:
+    description: Perm to use boss command
+    default: op
